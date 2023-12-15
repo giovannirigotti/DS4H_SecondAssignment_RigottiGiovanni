@@ -1,0 +1,104 @@
+{
+  "mediaLibrary": [
+    {
+      "type": "Movie",
+      "name": "The Shawshank Redemption",
+      "platforms": ["Netflix", "Amazon Prime"],
+      "actors": ["Tim Robbins", "Morgan Freeman"],
+      "director": "Frank Darabont",
+      "year": 1994,
+      "posterURL": "https://example.com/shawshank-redemption-poster.jpg",
+      "notes": ""
+    },
+    {
+      "type": "Movie",
+      "name": "The Godfather",
+      "platforms": ["Amazon Prime", "HBO Max"],
+      "actors": ["Marlon Brando", "Al Pacino"],
+      "director": "Francis Ford Coppola",
+      "year": 1972,
+      "posterURL": "https://example.com/godfather-poster.jpg",
+      "notes": ""
+    },
+    {
+      "type": "Movie",
+      "name": "Inception",
+      "platforms": ["Netflix", "Hulu"],
+      "actors": ["Leonardo DiCaprio", "Ellen Page"],
+      "director": "Christopher Nolan",
+      "year": 2010,
+      "posterURL": "https://example.com/inception-poster.jpg",
+      "notes": ""
+    },
+    {
+      "type": "Series",
+      "name": "Stranger Things",
+      "platforms": ["Netflix"],
+      "actors": ["Winona Ryder", "David Harbour"],
+      "director": "The Duffer Brothers",
+      "year": 2016,
+      "posterURL": "https://example.com/stranger-things-poster.jpg",
+      "notes": ""
+    },
+    {
+      "type": "Series",
+      "name": "The Mandalorian",
+      "platforms": ["Disney+"],
+      "actors": ["Pedro Pascal"],
+      "director": "Jon Favreau",
+      "year": 2019,
+      "posterURL": "https://example.com/mandalorian-poster.jpg",
+      "notes": ""
+    },
+    {
+      "type": "Movie",
+      "name": "The Dark Knight",
+      "platforms": ["Hulu", "HBO Max"],
+      "actors": ["Christian Bale", "Heath Ledger"],
+      "director": "Christopher Nolan",
+      "year": 2008,
+      "posterURL": "https://example.com/dark-knight-poster.jpg",
+      "notes": ""
+    },
+    {
+      "type": "Movie",
+      "name": "Pulp Fiction",
+      "platforms": ["Amazon Prime", "Netflix"],
+      "actors": ["John Travolta", "Samuel L. Jackson"],
+      "director": "Quentin Tarantino",
+      "year": 1994,
+      "posterURL": "https://example.com/pulp-fiction-poster.jpg",
+      "notes": ""
+    },
+    {
+      "type": "Series",
+      "name": "Breaking Bad",
+      "platforms": ["Netflix"],
+      "actors": ["Bryan Cranston", "Aaron Paul"],
+      "director": "Vince Gilligan",
+      "year": 2008,
+      "posterURL": "https://example.com/breaking-bad-poster.jpg",
+      "notes": ""
+    },
+    {
+      "type": "Movie",
+      "name": "Forrest Gump",
+      "platforms": ["Amazon Prime", "Hulu"],
+      "actors": ["Tom Hanks", "Robin Wright"],
+      "director": "Robert Zemeckis",
+      "year": 1994,
+      "posterURL": "https://example.com/forrest-gump-poster.jpg",
+      "notes": ""
+    },
+    {
+      "type": "Series",
+      "name": "Game of Thrones",
+      "platforms": ["HBO Max"],
+      "actors": ["Emilia Clarke", "Kit Harington"],
+      "director": "David Benioff, D. B. Weiss",
+      "year": 2011,
+      "posterURL": "https://example.com/game-of-thrones-poster.jpg",
+      "notes": ""
+    }
+  ]
+}
