@@ -3,6 +3,7 @@
 // -----------------
 
 // GLOBAL Json variable
+const key = "jsonLibrary"; // To save and load
 var jsonLibrary;
 
 // On init section
@@ -24,6 +25,7 @@ function loadTable(){
     .then(response => response.json())
     .then(data => {
       // Now 'data' contains the parsed JSON
+      tempAlert("DATA LOADED FROM A EXTERNAL FILE\n(If you save you override the local stoarge)", 3000, true);
       console.log("--> JSON LIBRARY LOADED");
       // Update jsonLibrary
       jsonLibrary = data;
@@ -245,7 +247,8 @@ function handleFormSubmission() {
     // If the form is not valid, you can choose to show an error message or take other actions
     console.log("Form is not valid. Please fill in all required fields.");
     
-    alert("Use all the fields...");
+    
+    tempAlert("FILL ALL THE AVAILABLE FIELDS OF THE FORM", 3000, false);
   }
 
   form.reset();
@@ -323,4 +326,69 @@ function sort(sortType){
   jsonLibrary["mediaLibrary"] = sortResult;
 
   renderTable(jsonLibrary, document.querySelector("#elementsXpage").value);
+}
+
+
+// MAGAGE LOCAL STORAGE
+
+// Function to save JSON data to localStorage
+function saveJSONToLocalStorage() {
+  try {
+    // Convert JSON object to a string
+    const jsonString = JSON.stringify(jsonLibrary);
+
+    // Save the string in localStorage
+    localStorage.setItem(key, jsonString);
+    
+    tempAlert("DATA SAVED FROM LOCAL STORAGE", 3000, true);
+    console.log(`JSON data saved with key: ${key}`);
+  } catch (error) {
+    console.error('Error saving JSON data to localStorage:', error);
+  }
+}
+
+// Function to retrieve JSON data from localStorage
+function getJSONFromLocalStorage() {
+  try {
+    // Get the string from localStorage
+    const jsonString = localStorage.getItem(key);
+
+    // Convert the string back to a JSON object
+    jsonLibrary = JSON.parse(jsonString);
+
+    // Draw table
+    renderTable(jsonLibrary, document.querySelector("#elementsXpage").value);
+    tempAlert("DATA LOADED FROM LOCAL STORAGE", 5000, true);
+    return jsonData;
+  } catch (error) {
+    console.error('Error retrieving JSON data from localStorage:', error);
+    return null;
+  }
+}
+
+function tempAlert(msg, duration, success) {
+  var el = document.createElement("div");
+  el.style.position = "fixed";
+  el.style.fontWeight = "bold";
+  el.style.top = "50%";
+  el.style.left = "50%";
+  el.style.transform = "translate(-50%, -50%)";
+  el.style.padding = "20px";
+  el.style.borderRadius = "10px";
+  el.style.textAlign = "center";
+
+  // Impostazione del colore di sfondo in base al parametro success
+  if (success) {
+    el.style.backgroundColor = "rgba(106, 195, 113, 0.9)"; // Verde
+  } else {
+    el.style.backgroundColor = "rgba(177, 96, 96, 0.9)"; // Rosso
+  }
+
+  el.innerHTML = msg;
+
+  setTimeout(function () {
+    el.parentNode.removeChild(el);
+  }, duration);
+
+  document.body.appendChild(el);
 }
