@@ -7,7 +7,7 @@
       "actors": ["Tim Robbins", "Morgan Freeman"],
       "director": "Frank Darabont",
       "year": 1994,
-      "posterURL": "https://example.com/shawshank-redemption-poster.jpg",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
       "notes": ""
     },
     {
@@ -17,7 +17,7 @@
       "actors": ["Marlon Brando", "Al Pacino"],
       "director": "Francis Ford Coppola",
       "year": 1972,
-      "posterURL": "https://example.com/godfather-poster.jpg",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
       "notes": ""
     },
     {
@@ -27,7 +27,7 @@
       "actors": ["Leonardo DiCaprio", "Ellen Page"],
       "director": "Christopher Nolan",
       "year": 2010,
-      "posterURL": "https://example.com/inception-poster.jpg",
+      "posterURL": "https://m.media-amazon.com/images/I/912AErFSBHL._AC_UF1000,1000_QL80_.jpg",
       "notes": ""
     },
     {
@@ -37,7 +37,7 @@
       "actors": ["Winona Ryder", "David Harbour"],
       "director": "The Duffer Brothers",
       "year": 2016,
-      "posterURL": "https://example.com/stranger-things-poster.jpg",
+      "posterURL": "https://p7.hiclipart.com/preview/493/53/85/no-symbol-sign-clip-art-prohibited-signs.jpg",
       "notes": ""
     },
     {
@@ -47,7 +47,7 @@
       "actors": ["Pedro Pascal"],
       "director": "Jon Favreau",
       "year": 2019,
-      "posterURL": "https://example.com/mandalorian-poster.jpg",
+      "posterURL": "https://p7.hiclipart.com/preview/493/53/85/no-symbol-sign-clip-art-prohibited-signs.jpg",
       "notes": ""
     },
     {
@@ -57,7 +57,7 @@
       "actors": ["Christian Bale", "Heath Ledger"],
       "director": "Christopher Nolan",
       "year": 2008,
-      "posterURL": "https://example.com/dark-knight-poster.jpg",
+      "posterURL": "https://p7.hiclipart.com/preview/493/53/85/no-symbol-sign-clip-art-prohibited-signs.jpg",
       "notes": ""
     },
     {
@@ -67,7 +67,7 @@
       "actors": ["John Travolta", "Samuel L. Jackson"],
       "director": "Quentin Tarantino",
       "year": 1994,
-      "posterURL": "https://example.com/pulp-fiction-poster.jpg",
+      "posterURL": "https://p7.hiclipart.com/preview/493/53/85/no-symbol-sign-clip-art-prohibited-signs.jpg",
       "notes": ""
     },
     {
@@ -77,7 +77,7 @@
       "actors": ["Bryan Cranston", "Aaron Paul"],
       "director": "Vince Gilligan",
       "year": 2008,
-      "posterURL": "https://example.com/breaking-bad-poster.jpg",
+      "posterURL": "https://p7.hiclipart.com/preview/493/53/85/no-symbol-sign-clip-art-prohibited-signs.jpg",
       "notes": ""
     },
     {
@@ -87,7 +87,7 @@
       "actors": ["Tom Hanks", "Robin Wright"],
       "director": "Robert Zemeckis",
       "year": 1994,
-      "posterURL": "https://example.com/forrest-gump-poster.jpg",
+      "posterURL": "https://p7.hiclipart.com/preview/493/53/85/no-symbol-sign-clip-art-prohibited-signs.jpg",
       "notes": ""
     },
     {
@@ -97,7 +97,7 @@
       "actors": ["Emilia Clarke", "Kit Harington"],
       "director": "David Benioff, D. B. Weiss",
       "year": 2011,
-      "posterURL": "https://example.com/game-of-thrones-poster.jpg",
+      "posterURL": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
       "notes": ""
     }
   ]

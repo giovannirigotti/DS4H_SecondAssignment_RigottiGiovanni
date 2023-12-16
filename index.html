@@ -4,13 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 2 - Rigotti Giovanni</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="./js/script.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <h1>Giovanni Rigotti - Assignment 2</h1>
+    
+    <div id="main_div">
+        <div>
+            <form id="mediaForm" action="about:blank">
+                <label for="name">Name (movie or series):</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="platforms">Available on: (Press 'ctrl')</label>
+                <select id="platforms" name="platforms" multiple size="5" required>
+                    <option value="Netflix">Netflix</option>
+                    <option value="Amazon Prime">Amazon Prime</option>
+                    <option value="HBO Max">HBO Max</option>
+                    <option value="Hulu">Hulu</option>
+                    <option value="Disney+">Disney+</option>
+                </select>
 
-    <h1>Hello, World!</h1>
-    <p>Test</p>
-
+                <label for="actors">Main actors (comma-separated):</label>
+                <input type="text" id="actors" name="actors" required>
+                
+                <label for="director">Director:</label>
+                <input type="text" id="director" name="director" required>
+            
+                <label for="year">Year:</label>
+                <input type="number" id="year" name="year" min="1600" max="9999" required>
+            
+                <label for="posterURL">URL with the picture of the poster:</label>
+                <input type="url" id="posterURL" name="posterURL" value="https://p7.hiclipart.com/preview/493/53/85/no-symbol-sign-clip-art-prohibited-signs.jpg" required>
+            
+                <button type="button" onclick="handleFormSubmission()">Add Media</button>
+            </form>
+        </div>
+        <div>
+            <label for="elementsXpage">Numbre of elements for pages</label>
+            <input type="number" id="elementsXpage" min="1" max="20" value="10" onchange="updateTable()"/>    
+        
+            <label for="search">Search for movie/serie name:</label>
+            <input type="text" id="search" value="" oninput="search()"/>   
+        </div>
+        <div id="render_section"></div>
+        <div id="table_nav"></div>
+    </div>
+    <div>
+        <button id="loadJSON" onclick="loadTable()">Load example films</button>
+    </div>
 </body>
 </html>
